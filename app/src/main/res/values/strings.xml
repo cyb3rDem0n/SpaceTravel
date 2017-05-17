@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Space Travels</string>
+    <string name="title_home">Home</string>
+    <string name="title">Space Travels</string>
+    <string name="description">Con questa applicazione potrai viaggiare in lungo e in largo nell\'universo, scegliendo un mezzo a tuo piacimento. Potrai partire in motorino per la galassia di Andromeda o andare sulla luna in bicicletta, l\'applicazione ti dirà quanto tempo ci metterai a raggiungere la tua destinazione.</string>
+    <string name="altre_galassie">Altre Galassie</string>
+    <string name="altri_oggeti_stellari">Altri oggeti stellari</string>
+    <string name="confini_della_galassia">Confini della galassia</string>
+    <string name="sistema_solare">Sistema Solare</string>
+    <string name="sistemi_solari_vicini">Sistemi Solari Vicini</string>
+    <string name="titolo_destinazioni">DESTINAZIONI</string>
+    <string name="title_inizia">Inizia</string>
+    <string name="title_informazioni">Info</string>
+</resources>

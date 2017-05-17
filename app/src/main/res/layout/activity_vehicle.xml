@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/time_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/durata"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_vehicle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bgy"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Mezzo Trasporto"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
+
+            <Button
+                android:id="@+id/button_bici"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="5dp"
+                android:elevation="0dp"
+                android:text="Bicicletta" />
+
+            <Button
+                android:id="@+id/button_utilitaria"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Utilitaria" />
+
+            <Button
+                android:id="@+id/button_sportiva"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Auto Sportiva" />
+
+            <Button
+                android:id="@+id/button_scooter"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Scooter" />
+
+            <Button
+                android:id="@+id/button_moto_sportiva"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Moto Sportiva" />
+
+            <Button
+                android:id="@+id/button_voyager1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Voyager 1" />
+
+            <Button
+                android:id="@+id/button_apollo11"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Apollo 11" />
+
+            <Button
+                android:id="@+id/button_light"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Velocità Luce" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
